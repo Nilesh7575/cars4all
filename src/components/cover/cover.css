@@ -1,0 +1,150 @@
+
+
+
+
+
+
+.cover{
+    position:absolute;
+    z-index: -1;
+    left: 0;
+    top: -57px;
+    height: 120vh;
+}
+
+.coverdiv{
+    display: flex;
+    align-items: end;
+    justify-content:end;
+}
+
+.coverdiv-in{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+    margin-right: 40px;
+    margin-left: auto;
+    /* justify-content: center; */
+    align-items: center;
+    width: 30%;
+}
+
+.cover-head{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+.cover-head-span{
+    color: #4caf50;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.Landing_tabs__1ut6H{
+    background-color: #fff;
+    border-radius: 50px;
+    border: 2px solid #4caf50;
+    margin: auto auto 20px;
+    position: relative;
+    width: 151px;
+}
+.Landing_tabs__1ut6H a{
+    color: #383838;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.Landing_tab__2YRYa{
+    display: inline-block;
+    padding: 9.8px 12px;
+    font-size: 12px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.Landing_selectedTab__2Iu0E{
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.car-search-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 100%;
+    height: 29.9vh;
+    padding: 1rem;
+    
+    background-color: rgba(0,0,0,.2);
+    border: 3px solid #4caf50;
+    /* height: 100%; */
+}
+
+.Landing_goBtn__1olfT{
+    width: 100%;
+    border-radius: 20px;
+    color: #fff !important;
+    background-color: #4caf50;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.Landing_goBtn__1olfT:hover{
+    background-color: #228f3b;
+}
+
+.car-search-dropdown{
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(206, 212, 218);
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    min-height: 38px;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    outline: 0px !important;
+    color: #808080;
+}
+
+
+.car-search-dropdown:hover{
+    border-color: rgb(179, 179, 179);
+}
+
+.brand-carousel-div{
+    background-color:white;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+.brand-carousel-div p{
+    font-weight: 700;
+}
+
+.carousel-div{
+    width: 70%;
+}
+
+.carousel-img{
+    display: flex;
+    /* width: 100%; */
+    /* height: 90px; */
+    padding-top: 10px;
+}

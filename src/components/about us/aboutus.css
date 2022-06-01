@@ -1,0 +1,83 @@
+.aboutus-div{
+    display: flex;
+    padding: 4.5rem;
+    background-color: #eee;
+    min-height: 26rem;
+}
+
+.aboutus-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus-content-left p{
+    width: 80%;
+    font-size: 14px;
+}
+
+.aboutus-contactButton{
+    color: #4caf50;
+    border: 2px solid #4caf50;
+    cursor: pointer;
+    padding: 8px 30px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .5s;
+    border-radius: 50px!important;
+    box-shadow: 0 0 35px rgb(0 0 0 / 10%);
+    text-decoration: none !important;
+}
+
+.aboutus-contactButton:hover{
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+}
+
+.left-div{
+    display:flex;
+}
+
+.right-div{
+    display:flex;
+}
+
+.left-first {
+    display: flex;
+}
+
+.left-first p{
+    font-size: 14px;
+}
+
+.left-second{
+    display: flex;
+}
+
+.left-second p{
+    width: 75%;
+    font-size: 14px;
+}
+.left-second h5{
+    width: 75%;
+}
+
+.right-first {
+    width: 49.8%;
+    display: flex;
+}
+
+.right-first p{
+    font-size: 14px;
+}
+
+.right-second{
+    display: flex;
+}
+
+.right-second p{
+    font-size: 14px;
+}

@@ -1,0 +1,63 @@
+.footer-div{
+    background-color: #262626;
+    z-index: 100;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 30px;
+    color: #fff;  
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+.container{
+    padding:3rem;
+}
+
+.mail-contact{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.Footer_social{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icon{
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-head-line{
+    border-radius: 24px;
+    height: 3px;
+    width: 60px;
+    background-color: #99ca3c;
+    margin-bottom: 10px;
+}
+
+.footer_quick-links div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.about-us-para{
+    font-size: 14px;
+
+}
+
+.copyright-div{
+    text-align: center;
+    font-size: 14px;
+}
+
+.copy-icon{
+    color: #fff;
+    font-size: 14px;
+}

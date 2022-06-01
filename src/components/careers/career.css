@@ -1,0 +1,85 @@
+h4{
+    font-weight: 700;
+}
+
+.career-top{
+    text-align: left;
+    padding: 60px;
+    /* padding-bottom: 50px; */
+}
+
+.hiring_positionChip{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 10px;
+    font-size: 12px;
+    background-color: #4caf50;
+    background-image: linear-gradient(90deg,#669c70,#a6c274);
+    color: #fff;
+}
+
+.hiring_tag{
+    margin-top: 20px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.career-bottom{
+    justify-content: left;
+    text-align: left;
+    padding: 0 4rem;
+
+}
+
+.cara{
+    height: 65vh;
+}
+
+.career-bottom blockquote{
+    margin: 10px 10px 0;
+    padding: 60px;
+    position: relative;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #383838;
+}
+
+.career-bottom blockquote::before {
+    content: "\201C";
+    font-size: 80px;
+    padding: 10px;
+    line-height: 1;
+    color: #4caf50;
+    font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
+}
+.career-bottom blockquote::after {
+    content: "\201D";
+    right: 10px;
+    bottom: -0.5em;
+    font-size: 80px;
+    padding: 10px;
+    line-height: 1;
+    color: #4caf50;
+    font-family: "Lucida Sans","Lucida Sans Regular","Lucida Grande","Lucida Sans Unicode",Geneva,Verdana,sans-serif;
+}
+
+.career-bottom span{
+    margin-top: -20px;
+    text-align: center;
+    font-size: 15px;
+    color: #888;
+    font-style: italic;
+}
+
+.testimonials_avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.testimonials_avatar img{
+    height: 60px;
+    width: 60px;
+    margin-right: 10px;
+    border-radius: 100px;
+}

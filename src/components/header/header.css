@@ -1,0 +1,63 @@
+.navbaar{
+    background-color: #f8f9fa;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    height: 14vh;
+}
+
+.nav-text{
+    color: #2e7d32 !important;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.nav-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.navbar-nav{
+    align-items: center;
+    height: 5vh !important;
+}
+
+.header-quickbuy{
+    background-color: #4caf50;
+    border-radius: 20px;
+    height: 6vh;
+    width: 9.5vw;
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header-quickbuy:hover{
+    background-color: #228f3b;
+}
+
+.MuiBadge-colorPrimary{
+    color: black !important;
+    background-color: #FFC857 !important;
+}
+
+.MuiBadge-root{
+    text-align: center;
+}
+
+.call-icon{
+    margin-right: 0.1rem;
+    height: 1.3rem !important;
+}

@@ -1,0 +1,70 @@
+.CarListings_filter{
+    background-color: #fff;
+}
+
+.Filter_title{
+    font-size: 13px;
+    color: grey;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid#ccc;
+    cursor: pointer;
+}
+
+.Filter_containers{
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 13px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.Filter_containers input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.Filter_checkmark{
+    margin-bottom: -5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: #eee;
+    border: 1px solid #4caf50;
+}
+
+.Filter_containers input:checked~.Filter_checkmark {
+    background-color: #4caf50;
+}
+
+.Filter_containers input:checked~.Filter_checkmark:after {
+    display: block;
+}
+
+.Filter_containers .Filter_checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.Filter_checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
